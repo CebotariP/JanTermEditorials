@@ -1,6 +1,6 @@
 .wrapper {
   min-height: 100vh;
-  font-family: "Roboto Slab", serif;
+  font-family: "Comfortaa";
   font-weight: 300;
   color: #1d3a4d;
   position: relative;
@@ -8,12 +8,14 @@
 
 section {
   height: 100vh;
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 100;
   background-color: #22A7F0;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 30%;
+  padding-right: 10%;
 }
 section:nth-child(1) {
   background: white;
@@ -91,7 +93,7 @@ section:nth-child(7) {
 .nav li a {
   display: block;
   padding: 0;
-  color: #fff;
+  color: #1d3a4d;
   transition: all 0.15s ease-out;
 }
 .nav li a:hover {
